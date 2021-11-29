@@ -24,11 +24,11 @@ class RecipePage extends StatelessWidget {
               border: UnderlineInputBorder(),
               icon: Icon(Icons.search),
               labelText: 'Find a recipe',
-              counterText: 'test',
+              //counterText: 'test',
               fillColor: Colors.red,
             ),
           ),
-          //Container(padding: EdgeInsetsDirectional.only(top: 16)),
+          SizedBox(height: 20),
           Row(
             children: [
               Text('For You:', style: Theme.of(context).textTheme.headline5),

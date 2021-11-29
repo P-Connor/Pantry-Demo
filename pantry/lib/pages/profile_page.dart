@@ -42,13 +42,10 @@ class ProfilePage extends StatelessWidget {
                   style: Theme.of(context).textTheme.bodyText1),
               Wrap(
                 spacing: 8,
-                runSpacing: -8,
+                runSpacing: 4,
                 children: [
                   Chip(
                     label: const Text('Lactose Intolerance'),
-                  ),
-                  Chip(
-                    label: const Text('Vegetarian'),
                   ),
                   Chip(
                     label: const Text('Peanut Allergy'),
