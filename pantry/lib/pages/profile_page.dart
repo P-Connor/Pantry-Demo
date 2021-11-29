@@ -37,7 +37,27 @@ class ProfilePage extends StatelessWidget {
                   ],
                 ),
               ),
-              Text("Hello"),
+              Divider(height: 20),
+              Text("Your Dietary Restrictions:",
+                  style: Theme.of(context).textTheme.bodyText1),
+              Wrap(
+                spacing: 8,
+                runSpacing: -8,
+                children: [
+                  Chip(
+                    label: const Text('Lactose Intolerance'),
+                  ),
+                  Chip(
+                    label: const Text('Vegetarian'),
+                  ),
+                  Chip(
+                    label: const Text('Peanut Allergy'),
+                  ),
+                  Chip(
+                    label: const Icon(Icons.add),
+                  ),
+                ],
+              )
             ],
           ),
         ));
